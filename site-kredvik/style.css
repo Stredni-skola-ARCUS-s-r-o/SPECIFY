@@ -1,1 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #aef7ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
 
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 480px;
+}
+
+.menu-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menu-icon:hover {
+  color: #007bff;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.title:hover {
+  color: #007bff;
+}
+
+.image-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image-row img,
+.single-image img {
+  width: 140px;
+  height: 140px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.services {
+  background: #aef7ff;
+  padding: 1rem;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  max-width: 480px;
+}
+
+.service-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 20px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.service-item:hover {
+  background: #e0f8ff;
+  color: #007bff;
+}
+
+.service-item i {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.service-item:hover i {
+  color: #007bff;
+}
+
+.single-image {
+  margin-top: 1rem;
+}
