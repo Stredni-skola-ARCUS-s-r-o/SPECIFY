@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Specify Design</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #aef7ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
 
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      max-width: 480px;
+    }
+
+    .menu-icon {
+      font-size: 2rem;
+      cursor: pointer;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .image-row {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .image-row img,
+    .single-image img {
+      width: 140px;
+      height: 140px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    .services {
+      background: #aef7ff;
+      padding: 1rem;
+      border-radius: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      max-width: 480px;
+    }
+
+    .service-item {
+      background: white;
+      padding: 1rem;
+      border-radius: 20px;
+    }
+
+    .service-item i {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .single-image {
+      margin-top: 1rem;
+    }
+  </style>
+  <!-- Můžete přidat vlastní ikony nebo použít Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="title">SPECIFY</div>
+  </header>
+
+  <div class="image-row">
+    <img src="obrazek1.jpg" alt="Obývací pokoj" />
+    <img src="obrazek2.jpg" alt="Kuchyně" />
+  </div>
+
+  <div class="services">
+    <div class="service-item">
+      <i class="fas fa-drafting-compass"></i>
+      <div>2D Náčrt prostoru a konzultace</div>
+    </div>
+    <div class="service-item">
+      <i class="fas fa-sync-alt"></i>
+      <div>3D Model a export designu</div>
+    </div>
+    <div class="service-item">
+      <i class="fas fa-pencil-alt"></i>
+      <div>3D Design a VR prohlídka + konzultace</div>
+    </div>
+    <div class="service-item">
+      <i class="fas fa-vr-cardboard"></i>
+      <div>3D Design a VR prohlídka + konzultace</div>
+    </div>
+    <div class="service-item" style="grid-column: span 2">
+      <i class="fas fa-user"></i>
+      <div>3D Design a VR prohlídka + konzultace</div>
+    </div>
+  </div>
+
+  <div class="single-image">
+    <img src="obrazek3.jpg" alt="Dekorace" />
+  </div>
+</body>
+</html>
