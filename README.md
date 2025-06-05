@@ -1,8 +1,13 @@
-# Specify Design
-
-Obrázky (Image Row)
-obrázky:
+<html lang="cs-CZ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
   <div class="image-row">
     <img src="imagesnew/Slice1.png" alt="plan" />
     <img src="imagesnew/Slice2.png" alt="plan" />
   </div>
+</body>
+</html>
