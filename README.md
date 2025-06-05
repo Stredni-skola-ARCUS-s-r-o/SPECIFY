@@ -2,5 +2,7 @@
 
 Obrázky (Image Row)
 obrázky:
-- "imagesnew/Slice1.png"
-- "imagesnew/Slice2.png"
+  <div class="image-row">
+    <img src="imagesnew/Slice1.png" alt="plan" />
+    <img src="imagesnew/Slice2.png" alt="plan" />
+  </div>
