@@ -64,3 +64,4 @@ KONEC VOJTA KREDVIK README
 
 # SPECIFY
 ![figmapic](https://github.com/Stredni-skola-ARCUS-s-r-o/SPECIFY/blob/main/site-cibula/images/Slice%201.png)
+![figmapic](
